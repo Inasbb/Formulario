@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="apellido">Apellido:</label>
+            <input type="number" id="Edad" name="apellido">
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="Edad" name="edad">
+
+            <label for="fecha-de-nacimiento">Fecha de nacimiento:</label>
+            <input type="text" id="fecha-de-nacimiento" name="Fecha de nacimiento">
+
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo">
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="Teléfono">
+
+            <label for="provincia">Provincia:</label>
+            <select id="provincia" name="Provincia">
+                <option value="cordoba">Córdoba</option>
+                <option value="huelva">Huelva</option>
+                <option value="almeria">Almería</option>
+
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Información del curso</legend>
+
+            <label for="Modalidad">Modalidad:</label>
+            <select id="Modalidad" name="Modalidad">
+                <option value="online">Online</option>
+                <option value="presencial">Presencial</option>
+                <option value="hibrido">Híbrido</option>
+
+
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Intereses</legend>
+
+            <label for="Intereses">Intereses:</label>
+             
+
+
+        <input type="checkbox" id="Marketing" name="option" value="Marketing">
+         <input type="checkbox" id="Informatica" name="option" value="Informatica">
+        </fieldset>
+        
+         <fieldset>
+            <legend>Observaciones</legend>
+            
+            <textarea id="Mensaje" name="Mensaje" rows="10" cols="40"></textarea>
+                
+        </fieldset>
+
+
+
+
+
+        
+
+
+
+
+
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
