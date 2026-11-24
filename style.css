@@ -107,10 +107,37 @@ button {
     transition: background-color 0.3 ease;
 }
 
-.enviar {background-color: #263c59; color: white;}
+.enviar {
+    background-color: #263c59;
+    color: white;
+}
 
-.borrar {background-color: #a82e4d;}
+.borrar {
+    background-color: #a82e4d;
+}
 
-.enviar:hover {background-color: #1976a3;}
+.enviar:hover {
+    background-color: #1976a3;
+}
 
-.borrar:hover {background-color: #e41717;}
+.borrar:hover {
+    background-color: #e41717;
+}
+
+[popover] {
+    width: 400px;
+    padding: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+[popover]::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+[popover]::backdrop {
+      backdrop-filter: blur(4px)} 
+
+
