@@ -1,3 +1,19 @@
 .text-indigo-500 {
     color: aquamarine;
 }
+
+.card-img-top {
+    height: 180px;
+}
+
+
+.card-body{
+    height: 300px;
+    position: relative;
+}
+
+.card-body .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+}

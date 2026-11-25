@@ -60,34 +60,144 @@
 
         <a href="#actividades" class="btn btn-warning text-secondary mt-3">Ver actividades</a>
 
+
+
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr; gap: 20px; width: 60%; margin: auto"
+            ;>
+            <div class=" card shadow-lg mt-5" style="width: 18rem;">
+                <img src="img/mezquita (2).jpg" class="card-img-top" alt="mezquita">
+                <div class="card-body">
+                    <span class="badge text-bg-success">15€</span>
+                    <h5 class="card-title">Mezquita de Córdoba</h5>
+                    <p class="card-text">Visita guiada a la mezquita catedral de Córdoba y el barrio de la judería</p>
+                    <a href="#" class="btn btn-primary">Reserva ahora</a>
+                </div>
+            </div>
+
+            <div class="card shadow-lg mt-5" style="width: 18rem;">
+                <img src="img/tallerdefotografia.jpg" class="card-img-top" alt="tallerdefotografia">
+                <div class="card-body">
+                    <span class="badge text-bg-success">25€</span>
+                    <h5 class="card-title">Taller de fotografía</h5>
+                    <p class="card-text">Aprende a fotografiar paisajes y monumentos</p>
+                    <a href="#" class="btn btn-primary">Reserva ahora</a>
+                </div>
+            </div>
+
+            <div class="card shadow-lg mt-5" style="width: 18rem;">
+                <img src="img/Senderismo.jpg" class="card-img-top" alt="Senderismo">
+                <div class="card-body">
+                    <span class="badge text-bg-success">12€</span>
+                    <h5 class="card-title">Senderismo en Sierra Morena</h5>
+                    <p class="card-text">Ruta para descubrir el entorno natural de Córdoba</p>
+                    <a href="#" class="btn btn-primary">Reserva ahora</a>
+                </div>
+            </div>
+
+            <div class="card shadow-lg mt-5" style="width: 18rem;">
+                <img src="img/Tallerdeceramica.jpg" class="card-img-top" alt="Tallerdeceramica">
+                <div class="card-body">
+                    <span class="badge text-bg-success">30€</span>
+                    <h5 class="card-title">Taller de cerámica</h5>
+                    <p class="card-text">Iniciación a la creación de piezas artesanales</p>
+                    <a href="#" class="btn btn-primary">Reserva ahora</a>
+                </div>
+            </div>
+
+            <div class="card shadow-lg mt-5" style="width: 18rem;">
+                <img src="img/visitanocturna.jpg" class="card-img-top" alt="visitanocturna">
+                <div class="card-body">
+                    <span class="badge text-bg-success">18€</span>
+                    <h5 class="card-title">Visita nocturna</h5>
+                    <p class="card-text">Descubre los monumentos de Córdoba de noche</p>
+                    <a href="#" class="btn btn-primary">Reserva ahora</a>
+                </div>
+            </div>
+
+            <div class="card shadow-lg mt-5" style="width: 18rem;">
+                <img src="img/tallercocina.jpg" class="card-img-top" alt="tallercocina">
+                <div class="card-body">
+                    <span class="badge text-bg-success">35€</span>
+                    <h5 class="card-title">Taller de cocina cordobesa</h5>
+                    <p class="card-text">Aprende a preparar recetas tradicionales</p>
+                    <a href="#" class="btn btn-primary">Reserva ahora</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <section id="inscripcion" class="container my-5">
+            <h2 class="text-center mb-4">Inscribirse en una actividad</h2>
+            <form action="https://httpbin.org/get" method="get"></form>
+
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="telefono">
+            </div>
+
+            <div class="form-field">
+
+
+
+                <label for="fieldSelect" class="form-label">Selecciona la actividades</label>
+                <select class="form-select" id="fieldSelect">
+                    <option selected>Mezquita de Córdoba</option>
+                    <option value="1">Taller de fotografía</option>
+                    <option value="2">Senderismo en Sierra Morena</option>
+                    <option value="3">Taller de cerámica</option>
+                    <option value="4">Visita nocturno</option>
+                    <option value="5">Taller de cocina cordobesa
+                    </option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="participantes" class="form-label">Número de participantes</label>
+                <input type="number" class="form-control" id="participantes" min="1" max="5">
+            </div>
+
+            <div>
+                <div class="mb-3">
+
+                    <p clas="form-label">Turno preferido</p>
+                    <div class="from-check">
+
+                        <input class="from-check-input" type="radio" name="turno" id="mañana" value="mañana" checked>
+                        <label class="from-check-label" for="manana">Mañana</label>
+                    </div>
+
+                    <div class="from-check">
+
+                        <input class="from-check-input" type="radio" name="turno" id="tarde" value="tarde">
+                        <label class="from-check-label" for="tarde">Tarde</label>
+                    </div>
+
+                </div>
+
+                <div class="mb-3">
+                    <label for="observaciones" class="form-label">Observaciones</label>
+
+                    <textarea></textarea>
+
+                </div>
+
+        </section>
+
+
     </main>
-
-
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; width: 60%; margin: auto";>
-<div class=" card mt-5" style="width: 18rem;">
-        <img src="img/mezquita (2).jpg" class="card-img-top" alt="mezquita">
-        <div class="card-body">
-            <span class="badge text-bg-success">15€</span>
-            <h5 class="card-title">Mezquita de Córdoba</h5>
-            <p class="card-text">Visita guiada a la mezquita catedral de Córdoba y el barrio de la judería</p>
-            <a href="#" class="btn btn-primary">Reserva ahora</a>
-        </div>
-    </div>
-
-
-    <div class="card mt-5" style="width: 18rem;">
-        <img src="img/mezquita (2).jpg" class="card-img-top" alt="mezquita">
-        <div class="card-body">
-            <span class="badge text-bg-success">15€</span>
-            <h5 class="card-title">Mezquita de Córdoba</h5>
-            <p class="card-text">Visita guiada a la mezquita catedral de Córdoba y el barrio de la judería</p>
-            <a href="#" class="btn btn-primary">Reserva ahora</a>
-        </div>
-    </div>
-    </div>
-
     <script src="./recursos/bootstrap.min.js"></script>
 
+
+    <button type="reset">Enviar</button>
+    <button type="submit">Borrar</button>
 </body>
 
 </html>
